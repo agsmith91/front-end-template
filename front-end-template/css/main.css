@@ -1,0 +1,24 @@
+
+header {
+  background-color: lightblue;
+  text-align: center;
+  text-decoration: overline;
+  padding-top:25px;
+}
+
+section{
+  padding-top: 50px;
+}
+/* class level CSS */
+
+.table{
+  border-style: dashed;
+  border-color: #6495ed;
+  border-collapse: separate;
+  border-spacing: 15px
+}
+
+.mr-sm-2{
+  padding: 25px;
+  text-align: center;
+}
