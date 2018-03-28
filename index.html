@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title></title>
-</head>
-<body>
-    <h1> "I broke this"
-    </h1>
-</body>
+    <!-- jumbotron header -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src='js/app.js'></script>
+  </head>
+  <body>
+    <header>
+      <div class='container'>
+      <div class="jumbotron">
+        <h1 class="display-3"> How was your work out?</h1>
+        <p class="lead">AWESOME</p>
+      </div>
+    </div>
+    </header>
+    <section>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-6'>
+          <!-- Selector -->
+              <label class="mr-sm-2" for="muscle-group">Muscle Group</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>...</option>
+                <option value="Upper">Upper</option>
+                <option value="Core">Core</option>
+                <option value="Lower">Lower</option>
+              </select>
+            <div class="form-group">
+            <!-- Input Fields-->
+            <label for="Exercise">Exercise:</label>
+            <input type="text" class="form-control" id="exercise-name" placeholder="Bicep-Curls">
+            </div>
+            <div class="form-group">
+            <label for="reps">How many:</label>
+            <input type="text" class="form-control" id="reps" placeholder="1 billion">
+            </div>
+            <div class="form-group">
+            <label for="weight">How Heavy:</label>
+            <input type="text" class="form-control" id="weight" placeholder="16 tons">
+            </div>
+            <a class="btn btn-primary btn-lg" onclick="trackIt()">Track it!</a>
+          </div>
+          <!--Table-->
+          <div class='col-md-6'>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Muscle Group</th>
+                <th scope="col">Reps</th>
+                <th scope="col">Weight</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+    </footer>
+  </body>
 </html>
