@@ -12,11 +12,11 @@ An application to track your workouts and track progress made over time. I made 
 ```
 The class(es) I created are:
 
-1. header(.header)
-.. targets header , ex( adds color, padding, text decoration and text aligment to the jumbotron header.)
+1. paragraph(.body)
+. targets h2. Adds padding, text and background color.
 
-2. section(.body)
-targets body of the page (adds padding to create space between header and body)
+2. .mr-sm-2(.body)
+targets selector field. Adds padding between selector and header.
 
 3. .table(.section) targets the table(adds borders, padding and spacing to table.)
 

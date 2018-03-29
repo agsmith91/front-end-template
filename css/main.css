@@ -15,10 +15,26 @@ section{
   border-style: dashed;
   border-color: #6495ed;
   border-collapse: separate;
-  border-spacing: 15px
+  border-spacing: 15px;
+  margin-top: 50px;
 }
 
 .mr-sm-2{
-  padding: 25px;
+  padding: 50px;
   text-align: center;
+}
+
+
+.Exercise{
+  padding: 50px;
+  text-align: center;
+}
+
+.paragraph{
+  padding: 50px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  margin: 25px;
+  opacity: 25%;
 }
